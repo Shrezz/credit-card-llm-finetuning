@@ -1,8 +1,18 @@
 # Fine-tuning Qwen to read credit card transactions
 
-Can a small language model turn a statement description into JSON that a program can use directly? On 66 held-out synthetic transactions, the original Qwen model returned **0 directly parseable replies**. After one epoch of LoRA fine-tuning, **all 66 parsed**, all 66 amounts were correct, and **38/66 transactions had every field correct**. Merchant names and categories remained the harder parts of the task.
+The goal is to answer **“How much did I spend last month, by category, and which charges need my review?”** on my own computer, with real statements staying local. This course experiment tests one part of that workflow: teaching a small model to read a transaction description and return a merchant, amount, and category. It uses only synthetic data. Importing real statements and producing monthly reports are planned next steps.
 
 [Open in Colab](https://colab.research.google.com/github/Shrezz/credit-card-llm-finetuning/blob/main/notebooks/Finetuning_Practice.ipynb) · [View the executed notebook](notebooks/Finetuning_Practice.ipynb) · [Sample: one transaction per category](data/sample.jsonl) · [Frozen synthetic dataset](data/transactions_v1.zip)
+
+## Why fine-tune for this task?
+
+The output has three fixed fields and eleven allowed categories. What the model needs to learn is how to apply a labeling convention to different descriptions. For example, `TARGET #1284` gets `Other / Mixed`, while `TARGET OPTICAL #1284` gets `Healthcare`. [LoRA](https://arxiv.org/abs/2106.09685) lets us teach that behavior from labeled examples while keeping the original model weights frozen. We tested whether that helped by giving both models the same prompt and the same unseen transactions.
+
+**When would retrieval help?** [Retrieval-augmented generation (RAG)](https://arxiv.org/abs/2005.11401) gives the model reference material at prediction time. That would be useful if a category depended on a changing expense policy or a merchant directory. This experiment has no such reference source. A directory might identify a Target store, but it still couldn't tell us what was in the basket. A user correction for a known merchant is simpler to keep as a local lookup rule.
+
+**What the evidence supports.** With the prompt alone, 0/66 raw replies parsed as JSON; with the adapter, 66/66 parsed and 38/66 had every field correct. That establishes an improvement over the tested prompt. We did not benchmark RAG, a conventional classifier, or a decoder that enforces JSON syntax. The [results](#results) also show where merchant extraction regressed.
+
+**How this fits expense analysis.** In the planned local tool, Python will read dates and amounts from the statement, apply saved merchant rules, and calculate totals. The model will suggest categories for unfamiliar descriptions, and uncertain charges can be reviewed. A $50 purchase, a $10 refund, and a $500 card payment should yield **$40 in net spending**: the payment settles the balance and must not be counted as another purchase. Getting that arithmetic right is a separate test from getting a category right.
 
 ## A prediction from the test set
 
