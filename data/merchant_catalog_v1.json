@@ -1,0 +1,800 @@
+{
+  "train": [
+    {
+      "merchant": "Trader Joe's",
+      "category": "Groceries",
+      "aliases": [
+        "TRADER JOES",
+        "TRADER JOE'S #142",
+        "TRADER JOES SAN JOSE"
+      ]
+    },
+    {
+      "merchant": "Trinethra",
+      "category": "Groceries",
+      "aliases": [
+        "TRINETHRA",
+        "TRINETHRA GROCERY",
+        "TRINETHRA MKT"
+      ]
+    },
+    {
+      "merchant": "Oak Street Market",
+      "category": "Groceries",
+      "aliases": [
+        "OAK STREET MARKET",
+        "OAK ST MKT",
+        "OAK STREET MARKET #02"
+      ]
+    },
+    {
+      "merchant": "Valley Foods",
+      "category": "Groceries",
+      "aliases": [
+        "VALLEY FOODS",
+        "VALLEY FOODS #18",
+        "VALLEY FOODS FREMONT"
+      ]
+    },
+    {
+      "merchant": "Pressed Juicery",
+      "category": "Dining",
+      "aliases": [
+        "PRESSED JUICERY",
+        "PRESSED JUICERY #19",
+        "PRESSED JUICERY PICKUP"
+      ]
+    },
+    {
+      "merchant": "Mango Cafe",
+      "category": "Dining",
+      "aliases": [
+        "MANGO CAFE",
+        "MANGO CAFE TO GO",
+        "TST*MANGO CAFE"
+      ]
+    },
+    {
+      "merchant": "Saffron Kitchen",
+      "category": "Dining",
+      "aliases": [
+        "SAFFRON KITCHEN",
+        "SAFFRON KITCHEN #4",
+        "SAFFRON KITCHEN TAKEOUT"
+      ]
+    },
+    {
+      "merchant": "Elm Street Pizza",
+      "category": "Dining",
+      "aliases": [
+        "ELM STREET PIZZA",
+        "ELM ST PIZZA",
+        "ELM ST PIZZA ONLINE"
+      ]
+    },
+    {
+      "merchant": "Maple Books",
+      "category": "Shopping",
+      "aliases": [
+        "MAPLE BOOKS",
+        "MAPLE BOOKS #7",
+        "MAPLE BOOKS ONLINE"
+      ]
+    },
+    {
+      "merchant": "Canvas Shoes",
+      "category": "Shopping",
+      "aliases": [
+        "CANVAS SHOES",
+        "CANVAS SHOES OUTLET",
+        "CANVAS SHOES WEB"
+      ]
+    },
+    {
+      "merchant": "Bluebird Apparel",
+      "category": "Shopping",
+      "aliases": [
+        "BLUEBIRD APPAREL",
+        "BLUEBIRD APPRL",
+        "BLUEBIRD APPAREL #03"
+      ]
+    },
+    {
+      "merchant": "Bright Desk Stationery",
+      "category": "Shopping",
+      "aliases": [
+        "BRIGHT DESK STATIONERY",
+        "BRIGHT DESK STNRY",
+        "BRIGHT DESK STATIONERY WEB"
+      ]
+    },
+    {
+      "merchant": "City Metro",
+      "category": "Transportation",
+      "aliases": [
+        "CITY METRO",
+        "CITY METRO FARE",
+        "CITY METRO TAP"
+      ]
+    },
+    {
+      "merchant": "Yellow Cab",
+      "category": "Transportation",
+      "aliases": [
+        "YELLOW CAB",
+        "YELLOW CAB RIDE",
+        "YELLOW CAB #21"
+      ]
+    },
+    {
+      "merchant": "Main Street Parking",
+      "category": "Transportation",
+      "aliases": [
+        "MAIN STREET PARKING",
+        "MAIN ST PARKING",
+        "MAIN ST PKG GARAGE"
+      ]
+    },
+    {
+      "merchant": "River Ferry",
+      "category": "Transportation",
+      "aliases": [
+        "RIVER FERRY",
+        "RIVER FERRY FARE",
+        "RIVER FERRY TICKET"
+      ]
+    },
+    {
+      "merchant": "Oak Fuel",
+      "category": "Gas",
+      "aliases": [
+        "OAK FUEL",
+        "OAK FUEL PUMP 03",
+        "OAK FUEL #210"
+      ]
+    },
+    {
+      "merchant": "Turnpike Gas",
+      "category": "Gas",
+      "aliases": [
+        "TURNPIKE GAS",
+        "TURNPIKE GAS #17",
+        "TURNPIKE GAS PAY AT PUMP"
+      ]
+    },
+    {
+      "merchant": "Creekside Petroleum",
+      "category": "Gas",
+      "aliases": [
+        "CREEKSIDE PETROLEUM",
+        "CREEKSIDE PETRO",
+        "CREEKSIDE PETRO PUMP 6"
+      ]
+    },
+    {
+      "merchant": "Bay Fill Station",
+      "category": "Gas",
+      "aliases": [
+        "BAY FILL STATION",
+        "BAY FILL STN",
+        "BAY FILL STN PUMP 4"
+      ]
+    },
+    {
+      "merchant": "Starlight Cinema",
+      "category": "Entertainment",
+      "aliases": [
+        "STARLIGHT CINEMA",
+        "STARLIGHT CINEMA BOX OFFICE",
+        "STARLIGHT CINEMA TIX"
+      ]
+    },
+    {
+      "merchant": "Meadow Lanes",
+      "category": "Entertainment",
+      "aliases": [
+        "MEADOW LANES",
+        "MEADOW LANES BOWLING",
+        "MEADOW LANES #2"
+      ]
+    },
+    {
+      "merchant": "Atlas Arcade",
+      "category": "Entertainment",
+      "aliases": [
+        "ATLAS ARCADE",
+        "ATLAS ARCADE GAMES",
+        "ATLAS ARCADE PASS"
+      ]
+    },
+    {
+      "merchant": "Northside Museum",
+      "category": "Entertainment",
+      "aliases": [
+        "NORTHSIDE MUSEUM",
+        "NORTHSIDE MUSEUM ENTRY",
+        "NORTHSIDE MUSEUM ADMIT"
+      ]
+    },
+    {
+      "merchant": "Oak Dental",
+      "category": "Healthcare",
+      "aliases": [
+        "OAK DENTAL",
+        "OAK DENTAL COPAY",
+        "OAK DENTAL OFFICE"
+      ]
+    },
+    {
+      "merchant": "Beacon Optics",
+      "category": "Healthcare",
+      "aliases": [
+        "BEACON OPTICS",
+        "BEACON OPTICS EXAM",
+        "BEACON OPTICS CLINIC"
+      ]
+    },
+    {
+      "merchant": "West End Clinic",
+      "category": "Healthcare",
+      "aliases": [
+        "WEST END CLINIC",
+        "WEST END CLINIC VISIT",
+        "WEST END CLINIC COPAY"
+      ]
+    },
+    {
+      "merchant": "Redwood Physical Therapy",
+      "category": "Healthcare",
+      "aliases": [
+        "REDWOOD PHYSICAL THERAPY",
+        "REDWOOD PHYS THERAPY",
+        "REDWOOD PT VISIT"
+      ]
+    },
+    {
+      "merchant": "Harbor Hotel",
+      "category": "Travel",
+      "aliases": [
+        "HARBOR HOTEL",
+        "HARBOR HOTEL RESERVATION",
+        "HARBOR HOTEL FRONT DESK"
+      ]
+    },
+    {
+      "merchant": "Coastal Air",
+      "category": "Travel",
+      "aliases": [
+        "COASTAL AIR",
+        "COASTAL AIR BAG FEE",
+        "COASTAL AIR TICKET"
+      ]
+    },
+    {
+      "merchant": "Garden Lodge",
+      "category": "Travel",
+      "aliases": [
+        "GARDEN LODGE",
+        "GARDEN LODGE ROOM",
+        "GARDEN LODGE DEPOSIT"
+      ]
+    },
+    {
+      "merchant": "Crosswind Airlines",
+      "category": "Travel",
+      "aliases": [
+        "CROSSWIND AIRLINES",
+        "CROSSWIND AIR",
+        "CROSSWIND AIR SEAT FEE"
+      ]
+    },
+    {
+      "merchant": "City Water",
+      "category": "Utilities",
+      "aliases": [
+        "CITY WATER",
+        "CITY WATER BILL",
+        "CITY WATER AUTOPAY"
+      ]
+    },
+    {
+      "merchant": "Prairie Electric",
+      "category": "Utilities",
+      "aliases": [
+        "PRAIRIE ELECTRIC",
+        "PRAIRIE ELEC",
+        "PRAIRIE ELECTRIC AUTOPAY"
+      ]
+    },
+    {
+      "merchant": "Harbor Sanitation",
+      "category": "Utilities",
+      "aliases": [
+        "HARBOR SANITATION",
+        "HARBOR SANITATION BILL",
+        "HARBOR SANITATION ONLINE"
+      ]
+    },
+    {
+      "merchant": "Desert Natural Gas",
+      "category": "Utilities",
+      "aliases": [
+        "DESERT NATURAL GAS",
+        "DESERT NAT GAS",
+        "DESERT NAT GAS BILL"
+      ]
+    },
+    {
+      "merchant": "LinkedIn Premium",
+      "category": "Subscriptions",
+      "aliases": [
+        "LINKEDIN PREMIUM",
+        "LINKEDIN*PREMIUM",
+        "LINKEDIN PREMIUM MONTHLY"
+      ]
+    },
+    {
+      "merchant": "Medium",
+      "category": "Subscriptions",
+      "aliases": [
+        "MEDIUM MEMBERSHIP",
+        "MEDIUM*MEMBERSHIP",
+        "MEDIUM MONTHLY PLAN"
+      ]
+    },
+    {
+      "merchant": "NoteCloud",
+      "category": "Subscriptions",
+      "aliases": [
+        "NOTECLOUD PLAN",
+        "NOTECLOUD*MONTHLY",
+        "NOTECLOUD SUBSCRIPTION"
+      ]
+    },
+    {
+      "merchant": "FrameBox",
+      "category": "Subscriptions",
+      "aliases": [
+        "FRAMEBOX MEMBERSHIP",
+        "FRAMEBOX*PLAN",
+        "FRAMEBOX MONTHLY"
+      ]
+    },
+    {
+      "merchant": "Costco Wholesale",
+      "category": "Other / Mixed",
+      "aliases": [
+        "COSTCO WHOLESALE",
+        "COSTCO WHSE #042",
+        "COSTCO WAREHOUSE"
+      ]
+    },
+    {
+      "merchant": "Alltown Marketplace",
+      "category": "Other / Mixed",
+      "aliases": [
+        "ALLTOWN MARKETPLACE",
+        "ALLTOWN MKTPLACE",
+        "ALLTOWN MARKETPLACE WEB"
+      ]
+    },
+    {
+      "merchant": "Crossroads General Store",
+      "category": "Other / Mixed",
+      "aliases": [
+        "CROSSROADS GENERAL STORE",
+        "CROSSROADS GEN STORE",
+        "CROSSROADS GENERAL STORE #5"
+      ]
+    },
+    {
+      "merchant": "Town Square Supercenter",
+      "category": "Other / Mixed",
+      "aliases": [
+        "TOWN SQUARE SUPERCENTER",
+        "TOWN SQ SUPERCENTER",
+        "TOWN SQUARE SUPERCTR #8"
+      ]
+    }
+  ],
+  "validation": [
+    {
+      "merchant": "India Cash N Curry",
+      "category": "Groceries",
+      "aliases": [
+        "INDIA CASH N CURRY",
+        "INDIA CASH & CURRY",
+        "INDIA CASH N CURRY #2"
+      ]
+    },
+    {
+      "merchant": "Cedar Grocery",
+      "category": "Groceries",
+      "aliases": [
+        "CEDAR GROCERY",
+        "CEDAR GROC",
+        "CEDAR GROCERY #04"
+      ]
+    },
+    {
+      "merchant": "Chaat Bhavan",
+      "category": "Dining",
+      "aliases": [
+        "CHAAT BHAVAN",
+        "CHAAT BHAVAN TO GO",
+        "CHAAT BHAVAN FREMONT"
+      ]
+    },
+    {
+      "merchant": "Copper Grill",
+      "category": "Dining",
+      "aliases": [
+        "COPPER GRILL",
+        "TST*COPPER GRILL",
+        "COPPER GRILL TAKEOUT"
+      ]
+    },
+    {
+      "merchant": "Cedar Shoes",
+      "category": "Shopping",
+      "aliases": [
+        "CEDAR SHOES",
+        "CEDAR SHOES #12",
+        "CEDAR SHOES OUTLET"
+      ]
+    },
+    {
+      "merchant": "Amber Books",
+      "category": "Shopping",
+      "aliases": [
+        "AMBER BOOKS",
+        "AMBER BOOKS WEB",
+        "AMBER BOOKS DOWNTOWN"
+      ]
+    },
+    {
+      "merchant": "Harbor Transit",
+      "category": "Transportation",
+      "aliases": [
+        "HARBOR TRANSIT",
+        "HARBOR TRANSIT TAP",
+        "HARBOR TRANSIT FARE"
+      ]
+    },
+    {
+      "merchant": "Central Cabs",
+      "category": "Transportation",
+      "aliases": [
+        "CENTRAL CABS",
+        "CENTRAL CABS #19",
+        "CENTRAL CABS RIDE"
+      ]
+    },
+    {
+      "merchant": "Valley Gas Station",
+      "category": "Gas",
+      "aliases": [
+        "VALLEY GAS STATION",
+        "VALLEY GAS STN",
+        "VALLEY GAS STN #8"
+      ]
+    },
+    {
+      "merchant": "Pioneer Fuel",
+      "category": "Gas",
+      "aliases": [
+        "PIONEER FUEL",
+        "PIONEER FUEL #7",
+        "PIONEER FUEL PUMP 2"
+      ]
+    },
+    {
+      "merchant": "Riverside Theater",
+      "category": "Entertainment",
+      "aliases": [
+        "RIVERSIDE THEATER",
+        "RIVERSIDE THEATER TIX",
+        "RIVERSIDE THEATER BOX OFFICE"
+      ]
+    },
+    {
+      "merchant": "Orchard Skate Rink",
+      "category": "Entertainment",
+      "aliases": [
+        "ORCHARD SKATE RINK",
+        "ORCHARD SKATE RINK ENTRY",
+        "ORCHARD SKATE RINK ADMIT"
+      ]
+    },
+    {
+      "merchant": "Clearview Optometry",
+      "category": "Healthcare",
+      "aliases": [
+        "CLEARVIEW OPTOMETRY",
+        "CLEARVIEW OPTOM",
+        "CLEARVIEW OPTOMETRY EXAM"
+      ]
+    },
+    {
+      "merchant": "Laurel Dental",
+      "category": "Healthcare",
+      "aliases": [
+        "LAUREL DENTAL",
+        "LAUREL DENTAL OFFICE",
+        "LAUREL DENTAL COPAY"
+      ]
+    },
+    {
+      "merchant": "Summit Airlines",
+      "category": "Travel",
+      "aliases": [
+        "SUMMIT AIRLINES",
+        "SUMMIT AIRLINES BAG FEE",
+        "SUMMIT AIRLINES TICKET"
+      ]
+    },
+    {
+      "merchant": "Hilltop Suites",
+      "category": "Travel",
+      "aliases": [
+        "HILLTOP SUITES",
+        "HILLTOP SUITES ROOM",
+        "HILLTOP SUITES RESV"
+      ]
+    },
+    {
+      "merchant": "Valley Electric",
+      "category": "Utilities",
+      "aliases": [
+        "VALLEY ELECTRIC",
+        "VALLEY ELEC",
+        "VALLEY ELECTRIC BILL"
+      ]
+    },
+    {
+      "merchant": "Hills Water",
+      "category": "Utilities",
+      "aliases": [
+        "HILLS WATER",
+        "HILLS WATER AUTOPAY",
+        "HILLS WATER DISTRICT"
+      ]
+    },
+    {
+      "merchant": "WHOOP",
+      "category": "Subscriptions",
+      "aliases": [
+        "WHOOP MEMBERSHIP",
+        "WHOOP*MONTHLY",
+        "WHOOP MEMBER PLAN"
+      ]
+    },
+    {
+      "merchant": "PaperTrail",
+      "category": "Subscriptions",
+      "aliases": [
+        "PAPERTRAIL MONTHLY",
+        "PAPERTRAIL*PLAN",
+        "PAPERTRAIL SUBSCRIPTION"
+      ]
+    },
+    {
+      "merchant": "Amazon Marketplace",
+      "category": "Other / Mixed",
+      "aliases": [
+        "AMAZON MARKETPLACE",
+        "AMZN MKTPLACE",
+        "AMAZON MKTPLACE PMTS"
+      ]
+    },
+    {
+      "merchant": "Hillside General Store",
+      "category": "Other / Mixed",
+      "aliases": [
+        "HILLSIDE GENERAL STORE",
+        "HILLSIDE GEN STORE",
+        "HILLSIDE GENERAL STORE #3"
+      ]
+    }
+  ],
+  "test": [
+    {
+      "merchant": "Bharat Bazaar",
+      "category": "Groceries",
+      "aliases": [
+        "BHARAT BAZAAR",
+        "BHARAT BAZAAR #03",
+        "BHARAT BAZAAR SUNNYVALE"
+      ]
+    },
+    {
+      "merchant": "Lakeview Market",
+      "category": "Groceries",
+      "aliases": [
+        "LAKEVIEW MARKET",
+        "LAKEVIEW MKT",
+        "LAKEVIEW MARKET #12"
+      ]
+    },
+    {
+      "merchant": "Willow Bistro",
+      "category": "Dining",
+      "aliases": [
+        "WILLOW BISTRO",
+        "TST*WILLOW BISTRO",
+        "WILLOW BISTRO PATIO"
+      ]
+    },
+    {
+      "merchant": "Lemon Leaf Cafe",
+      "category": "Dining",
+      "aliases": [
+        "LEMON LEAF CAFE",
+        "LEMON LEAF CAFE #02",
+        "LEMON LEAF CAFE PICKUP"
+      ]
+    },
+    {
+      "merchant": "Pine Street Apparel",
+      "category": "Shopping",
+      "aliases": [
+        "PINE STREET APPAREL",
+        "PINE ST APPAREL",
+        "PINE ST APPAREL #2"
+      ]
+    },
+    {
+      "merchant": "Foxglove Toys",
+      "category": "Shopping",
+      "aliases": [
+        "FOXGLOVE TOYS",
+        "FOXGLOVE TOYS WEB",
+        "FOXGLOVE TOYS #4"
+      ]
+    },
+    {
+      "merchant": "Downtown Taxi",
+      "category": "Transportation",
+      "aliases": [
+        "DOWNTOWN TAXI",
+        "DOWNTOWN TAXI #6",
+        "DOWNTOWN TAXI FARE"
+      ]
+    },
+    {
+      "merchant": "Union Rail",
+      "category": "Transportation",
+      "aliases": [
+        "UNION RAIL",
+        "UNION RAIL TICKET",
+        "UNION RAIL TAP"
+      ]
+    },
+    {
+      "merchant": "Summit Petroleum",
+      "category": "Gas",
+      "aliases": [
+        "SUMMIT PETROLEUM",
+        "SUMMIT PETRO",
+        "SUMMIT PETRO PUMP 5"
+      ]
+    },
+    {
+      "merchant": "Juniper Gas",
+      "category": "Gas",
+      "aliases": [
+        "JUNIPER GAS",
+        "JUNIPER GAS #10",
+        "JUNIPER GAS PUMP 02"
+      ]
+    },
+    {
+      "merchant": "Harbor Aquarium",
+      "category": "Entertainment",
+      "aliases": [
+        "HARBOR AQUARIUM",
+        "HARBOR AQUARIUM ENTRY",
+        "HARBOR AQUARIUM TICKET"
+      ]
+    },
+    {
+      "merchant": "Silver Screen Cinema",
+      "category": "Entertainment",
+      "aliases": [
+        "SILVER SCREEN CINEMA",
+        "SILVER SCREEN CINEMA TIX",
+        "SILVER SCREEN CINEMA #3"
+      ]
+    },
+    {
+      "merchant": "Valley Clinic",
+      "category": "Healthcare",
+      "aliases": [
+        "VALLEY CLINIC",
+        "VALLEY CLINIC VISIT",
+        "VALLEY CLINIC COPAY"
+      ]
+    },
+    {
+      "merchant": "Fern Eye Care",
+      "category": "Healthcare",
+      "aliases": [
+        "FERN EYE CARE",
+        "FERN EYECARE",
+        "FERN EYE CARE EXAM"
+      ]
+    },
+    {
+      "merchant": "Lakeside Inn",
+      "category": "Travel",
+      "aliases": [
+        "LAKESIDE INN",
+        "LAKESIDE INN RESV",
+        "LAKESIDE INN ROOM"
+      ]
+    },
+    {
+      "merchant": "Meridian Airways",
+      "category": "Travel",
+      "aliases": [
+        "MERIDIAN AIRWAYS",
+        "MERIDIAN AIRWAYS TICKET",
+        "MERIDIAN AIRWAYS BAG FEE"
+      ]
+    },
+    {
+      "merchant": "County Sewer",
+      "category": "Utilities",
+      "aliases": [
+        "COUNTY SEWER",
+        "COUNTY SEWER BILL",
+        "COUNTY SEWER PAYMENT"
+      ]
+    },
+    {
+      "merchant": "East Bay Power",
+      "category": "Utilities",
+      "aliases": [
+        "EAST BAY POWER",
+        "E BAY POWER",
+        "EAST BAY POWER AUTOPAY"
+      ]
+    },
+    {
+      "merchant": "Substack",
+      "category": "Subscriptions",
+      "aliases": [
+        "SUBSTACK SUBSCRIPTION",
+        "SUBSTACK*MONTHLY",
+        "SUBSTACK MEMBER PLAN"
+      ]
+    },
+    {
+      "merchant": "TuneRoom",
+      "category": "Subscriptions",
+      "aliases": [
+        "TUNEROOM MONTHLY",
+        "TUNEROOM*PLAN",
+        "TUNEROOM MEMBERSHIP"
+      ]
+    },
+    {
+      "merchant": "Walmart Supercenter",
+      "category": "Other / Mixed",
+      "aliases": [
+        "WALMART SUPERCENTER",
+        "WALMART SUPERCTR",
+        "WALMART SUPERCENTER #12"
+      ]
+    },
+    {
+      "merchant": "Grand Plaza Marketplace",
+      "category": "Other / Mixed",
+      "aliases": [
+        "GRAND PLAZA MARKETPLACE",
+        "GRAND PLAZA MKTPLACE",
+        "GRAND PLAZA MARKETPLACE WEB"
+      ]
+    }
+  ]
+}

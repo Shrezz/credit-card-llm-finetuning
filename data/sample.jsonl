@@ -1,0 +1,11 @@
+{"input": "10/21 TRADER JOES $14.12", "output": {"merchant": "Trader Joe's", "amount": 14.12, "category": "Groceries"}}
+{"input": "10/11 PRESSED JUICERY $13.37", "output": {"merchant": "Pressed Juicery", "amount": 13.37, "category": "Dining"}}
+{"input": "10/12 MAPLE BOOKS $22.16", "output": {"merchant": "Maple Books", "amount": 22.16, "category": "Shopping"}}
+{"input": "10/15 CITY METRO $16.70", "output": {"merchant": "City Metro", "amount": 16.7, "category": "Transportation"}}
+{"input": "10/25 OAK FUEL $57.50", "output": {"merchant": "Oak Fuel", "amount": 57.5, "category": "Gas"}}
+{"input": "10/08 STARLIGHT CINEMA $51.47", "output": {"merchant": "Starlight Cinema", "amount": 51.47, "category": "Entertainment"}}
+{"input": "10/19 OAK DENTAL $23.04", "output": {"merchant": "Oak Dental", "amount": 23.04, "category": "Healthcare"}}
+{"input": "10/13 HARBOR HOTEL $64.65", "output": {"merchant": "Harbor Hotel", "amount": 64.65, "category": "Travel"}}
+{"input": "10/10 CITY WATER $39.65", "output": {"merchant": "City Water", "amount": 39.65, "category": "Utilities"}}
+{"input": "10/14 LINKEDIN PREMIUM $58.85", "output": {"merchant": "LinkedIn Premium", "amount": 58.85, "category": "Subscriptions"}}
+{"input": "10/20 COSTCO WHOLESALE $71.11", "output": {"merchant": "Costco Wholesale", "amount": 71.11, "category": "Other / Mixed"}}
